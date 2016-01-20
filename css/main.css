@@ -14,14 +14,39 @@
 
 html {
     box-sizing: border-box;
+    
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
+    
     font-family: sans-serif;
+    color: #000;
+    font-weight: 300;
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
 }
 
+btn {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: .5em 1em;
+    border-radius: 5px;
+    display: inline-block;
+    margin: .5em;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+    background-color: #99ff00;
+}
+
+.btn {
+    vertical-align: middle;
+    padding-right: 1em;
+}
