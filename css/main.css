@@ -19,7 +19,26 @@ html {
     box-sizing: inherit;
 }
 
+h1 {
+    font-family: 'Lato', sans-serif;
+    color: #00bfff;
+}
+
+.align {
+    text-align: center;
+}
+
 .icon-dingbats-05 {
+    font-size: 7em;
+    padding-top: 3em;
+}
+
+.icon-dingbats-06 {
+    font-size: 7em;
+    padding-top: 3em;
+}
+
+.icon-dingbats-08 {
     font-size: 7em;
     padding-top: 3em;
 }
